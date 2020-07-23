@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.header {
+	width:850px;
+	margin:auto;
+}
+
+.site_menu ul li {
+    float: left;
+    padding: 0px 16px;
+    list-style: none;
+}
+.header {
+    width: 950px;
+    margin: auto;
+    background: #ddd;
+    overflow: hidden;
+    height: 85px;
+}
+.logo {
+    width: 150px;
+    text-align: center;
+    float: left;
+    line-height: 85px;
+}
+
+ .site_menu{
+    width: 700px;
+    float: right;
+    line-height: 85px;
+}
+
+.site_menu ul li a{
+	color:white;
+	text-decoration:none;
+	font-size: 22px;
+	padding: 10px;
+	background: #0d0d0d;
+}
+
+.logo span{
+	color:red;
+	font-size: 30px;
+	font-family: initial;
+	font-weight: 800;
+}
+.background_image{
+	margin:auto;
+	width: 950px;
+}
+.background_image{
+	background:url(background.jpg);
+	height:450px;
+	background-position:center;
+	background-size:cover;
+	overflow: hidden;
+}
+
+.background_title {
+    h1: color:yellow;
+    font-size: 30px;
+    color: yellow;
+}
+.profile_pic img {
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
